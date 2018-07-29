@@ -30,7 +30,7 @@ class MainPage(BasePage):
         return self.is_displayed(self.find_element(self.locators.logo))
 
     def is_search_enabled(self):
-        self.is_displayed(self.find_element(self.locators.search_field)) and True
+        return self.is_displayed(self.find_element(self.locators.search_field))
 
     def is_text_in_search(self, text):
         search = self.find_element(self.locators.search_field)
