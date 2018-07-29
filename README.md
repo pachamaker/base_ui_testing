@@ -1,4 +1,4 @@
-# Basic Architecture of Autotests
+# Basic Architecture of UI Autotests
 This basic architecture automated tests that can help you to create your own framework.
 
 At the base are:
